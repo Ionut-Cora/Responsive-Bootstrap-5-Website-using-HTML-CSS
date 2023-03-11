@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary position-fixed w-100">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <strong>Ionut Cora</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="d-flex flex-column justify-content-center text-light">
+        <div class="container">
+            <div class="col-12 col-lg-6">
+                <h1>
+                    <strong>Ionut Cora</strong>
+                </h1>
+                <p class="py-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusamus quod tenetur molestias alias magni et. Sint architecto quibusdam ut facilis maxime itaque modi vel commodi delectus rem. Voluptatem, cum.</p>
+                <button type="button" class="btn btn-outline-light btn-lg">
+                    <strong>Portfolio</strong>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-light" id="about">
+        <div class="container">
+            <div class="row py-5">
+                <div class="d-block d-lg-flex">
+                    <div class="about-content col-12 col-lg-6 d-flex flex-column justify-content-center">
+                        <h2 class="mb-4 mb-md-5 fs-1">
+                            <strong>About Me</strong>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quas, iure, adipisci perspiciatis iusto nesciunt quo possimus ipsam autem esse vitae. Perferendis et tempore ipsa placeat explicabo autem. Magni laborum, quas incidunt deserunt mollitia adipisci repellat nesciunt consequatur minima veritatis, temporibus minus quam unde esse error neque eveniet ullam doloremque?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quis fugiat reprehenderit blanditiis dignissimos aut architecto in impedit facilis ut?</p>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <img src="./images/about-img.jpg" class="img-fluid shadow" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="services">
+        <div class="row g-4 py-5">
+            <h2 class="text-center mb-4 mb-md-5 fs-1">
+                <strong>Services</strong>
+            </h2>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-light shadow p-4">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            <strong>Service 1</strong>
+                        </h5>
+                        <p class="card-text text-center my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint totam quia alias, maiores iste facere.</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-primary shadow">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow p-4">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            <strong>Service 2</strong>
+                        </h5>
+                        <p class="card-text text-center my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint totam quia alias, maiores iste facere.</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-dark shadow">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-primary text-light shadow p-4">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            <strong>Service 3</strong>
+                        </h5>
+                        <p class="card-text text-center my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint totam quia alias, maiores iste facere.</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-dark shadow">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark text-light" id="projects">
+        <div class="container">
+            <div class="row py-5">
+                <h2 class="text-center mb-4 mb-md-5 fs-1">
+                    <strong>Projects</strong>
+                </h2>
+
+                <div class="d-block d-lg-flex py-5">
+                    <div class="col-12 col-lg-6">
+                        <img src="./images/project1.jpg" class="img-fluid shadow" alt="">
+                    </div>
+                    <div class="project-content-pl col-12 col-lg-6 d-flex flex-column justify-content-center">
+                        <h3 class="mb-4 mt-4 mt-lg-0">
+                            <strong>Project 1</strong>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ex nam omnis, voluptas aspernatur obcaecati?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ex nam omnis, voluptas aspernatur obcaecati?</p>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column-reverse flex-lg-row py-5">
+                    <div class="project-content-pr col-12 col-lg-6 d-flex flex-column justify-content-center">
+                        <h3 class="mb-4 mt-4 mt-lg-0">
+                            <strong>Project 2</strong>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ex nam omnis, voluptas aspernatur obcaecati?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ex nam omnis, voluptas aspernatur obcaecati?</p>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <img src="./images/project2.jpg" class="img-fluid shadow" alt="">
+                    </div>
+                </div>
+
+                <div class="d-block d-lg-flex py-5">
+                    <div class="col-12 col-lg-6">
+                        <img src="./images/project3.jpg" class="img-fluid shadow" alt="">
+                    </div>
+                    <div class="project-content-pl col-12 col-lg-6 d-flex flex-column justify-content-center">
+                        <h3 class="mb-4 mt-4 mt-lg-0">
+                            <strong>Project 3</strong>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ex nam omnis, voluptas aspernatur obcaecati?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ex nam omnis, voluptas aspernatur obcaecati?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container py-5">
+            <div class="row g-4">
+                <h2 class="text-center mb-4 mb-md-5 fs-1">
+                    <strong>Testimonials</strong>
+                </h2>
+
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light shadow p-4">
+                        <div class="card-body">
+                            <img src="./images/person1.jpg" class="img-thumbnail" alt="">
+                            <h5 class="card-title mt-4 fs-4">
+                                <strong>John Smith</strong>
+                            </h5>
+                            <p class="card-text my-4">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quos dolorem nam nobis commodi magnam? "</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light shadow p-4">
+                        <div class="card-body">
+                            <img src="./images/person2.jpg" class="img-thumbnail" alt="">
+                            <h5 class="card-title mt-4 fs-4">
+                                <strong>Anna Johans</strong>
+                            </h5>
+                            <p class="card-text my-4">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quos dolorem nam nobis commodi magnam? "</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light shadow p-4">
+                        <div class="card-body">
+                            <img src="./images/person3.jpg" class="img-thumbnail" alt="">
+                            <h5 class="card-title mt-4 fs-4">
+                                <strong>Will Mark</strong>
+                            </h5>
+                            <p class="card-text my-4">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quos dolorem nam nobis commodi magnam? "</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary text-light" id="contact">
+        <div class="container py-5">
+            <h2 class="text-center mb-4 mb-md-5 fs-1">
+                <strong>Let's Connect</strong>
+            </h2>
+
+            <div class="row">
+                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center py-5">
+                    <p class="fs-5">
+                        <strong>Location:</strong> 25 Street Name, London, UK
+                    </p>
+                    <p class="fs-5">
+                        <strong>Email:</strong> ionutcora@gmail.com
+                    </p>
+                    <p class="fs-5">
+                        <strong>Phone Number:</strong> 0200300400
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">
+                                <strong class="fs-5">Full Name</strong>
+                            </label>
+                            <input type="text" class="form-control shadow" id="name" aria-describedby="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-la
+                            ">
+                                <strong class="fs-5">Email Address</strong>
+                            </label>
+                        <input type="email" class="form-control shadow" id="emial" aria-describedby="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">
+                                <strong class="fs-5">Phone Number</strong>
+                            </label>
+                            <input type="number" class="form-control shadow" id="phone" aria-describedby="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="textarea" class="form-label">
+                                <strong class="fs-5">Description</strong>
+                            </label>
+                            <textarea class="form-control shadow" id="textarea" rows="3"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-center mt-5">
+                            <button type="submit" class="btn btn-dark shadow">
+                                <strong class="fs-5">Submit</strong>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light">
+        <p class="text-center py-4 mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+                <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+              </svg> Copyright | Ionut Cora 2023
+        </p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

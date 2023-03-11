@@ -1,0 +1,73 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.7), rgba(0,0,0,0)), url(./images/bg.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: top;
+}
+
+header h1 {
+    font-size: 100px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+header .btn {
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-content {
+    padding-right: 100px;
+}
+
+.card .btn {
+    font-family: 'Poppins', sans-serif;
+}
+
+.project-content-pl {
+    padding-left: 100px;
+}
+
+.project-content-pr {
+    padding-right: 100px;
+}
+
+@media (max-width: 992px) {
+    header {
+        background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./images/bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .about-content {
+        padding-right: 0;
+        padding-bottom: 50px;
+    }
+
+    .project-content-pl {
+        padding-left: 0;
+    }
+
+    .project-content-pr {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 60px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+}
